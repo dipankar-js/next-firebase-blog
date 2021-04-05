@@ -9,6 +9,17 @@ npm run dev
 # or
 yarn dev
 ```
+### Local Setup:
+
+Create a next.config.js file and put your own firebase key.
+
+```
+module.exports = {
+  env: {
+    FIREBASE_API_KEY: '',
+  },
+};
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
